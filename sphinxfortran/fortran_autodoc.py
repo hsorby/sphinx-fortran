@@ -35,7 +35,7 @@
 # The fact that you are presently reading this means that you have had
 # knowledge of the CeCILL license and that you accept its terms.
 #
-from sphinx.directives import Directive
+from docutils.parsers.rst import Directive
 from docutils.parsers.rst.directives import unchanged
 from docutils import nodes
 from docutils.statemachine import string2lines
